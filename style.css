@@ -1,0 +1,27 @@
+body {
+  background-color: salmon;
+}
+.picture {
+  background-image: url("http://source.unsplash.com/random/150x150");
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 5px;
+  cursor: pointer;
+}
+.empty {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background-color: cornsilk;
+}
+.hovered {
+  border: 3px solid black;
+}
+.drag-over {
+  background: #f4f4f4;
+  border: dashed 3px black;
+}
+.invisible {
+  display: none;
+}
