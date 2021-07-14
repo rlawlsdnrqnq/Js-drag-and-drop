@@ -15,13 +15,12 @@ body {
   height: 160px;
   background-color: cornsilk;
 }
-.hovered {
-  border: 3px solid black;
-}
 .drag-over {
-  background: #f4f4f4;
   border: dashed 3px black;
 }
-.invisible {
+.hide {
   display: none;
+}
+.hold {
+  border: solid 4px #ccc;
 }
