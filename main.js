@@ -1,9 +1,10 @@
 const picture = document.querySelector(".picture");
-const emptys = document.querySelectorAll(".empty");
+const empties = document.querySelectorAll(".empty");
 
 picture.addEventListener("dragstart", dragStart);
 picture.addEventListener("dragend", dragEnd);
-emptys.forEach((empty) => {
+
+empties.forEac((empty) => {
   empty.addEventListener("dragenter", dragEnter);
   empty.addEventListener("dragover", dragOver);
   empty.addEventListener("dragleave", dragLeave);
