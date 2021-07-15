@@ -4,7 +4,7 @@ const empties = document.querySelectorAll(".empty");
 picture.addEventListener("dragstart", dragStart);
 picture.addEventListener("dragend", dragEnd);
 
-empties.forEac((empty) => {
+empties.forEach((empty) => {
   empty.addEventListener("dragenter", dragEnter);
   empty.addEventListener("dragover", dragOver);
   empty.addEventListener("dragleave", dragLeave);
